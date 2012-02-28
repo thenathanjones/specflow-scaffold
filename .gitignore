@@ -1,0 +1,9 @@
+*/obj
+*/bin
+*ReSharper*
+packages/*
+*.CAB
+*.exe
+*/Release
+*/Debug
+*.DS_Store*
