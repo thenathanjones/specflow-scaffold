@@ -18,7 +18,7 @@ namespace Specs.Pages
         {
             if (String.IsNullOrEmpty(Url))
             {
-                throw new ArgumentNullException("Url", "Pages must set their Url");
+                throw new ArgumentNullException("Url", "Pages must set their Url for the Navigate function to work");
             }
 
             Browser.Navigate().GoToUrl(Url);
